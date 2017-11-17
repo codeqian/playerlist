@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         DisplayMetrics dm =getResources().getDisplayMetrics();
         deviceInfo._screenWidth = dm.widthPixels;
         deviceInfo._screenHeight = new Double(dm.widthPixels*9/16).intValue();
-        Log.d("LOGCAT","screenSize:"+deviceInfo._screenWidth+"-"+deviceInfo._screenHeight+"_"+dm.widthPixels);
+//        Log.d("LOGCAT","screenSize:"+deviceInfo._screenWidth+"-"+deviceInfo._screenHeight+"_"+dm.widthPixels);
 
         //put test info
         _infoList=new ArrayList<>();
